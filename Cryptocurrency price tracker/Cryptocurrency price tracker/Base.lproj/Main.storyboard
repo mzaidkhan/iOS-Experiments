@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0MV-nH-qD0">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Cryptocurrency Price Tracker-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cryptocurrency_price_tracker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Cryptocurrency Price Tracker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7wo-9b-uvq">
+                                <rect key="frame" x="10" y="98" width="394" height="21"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hWw-Wz-Qde">
+                                <rect key="frame" x="0.0" y="129" width="414" height="216"/>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lcs-xi-dgj">
+                                <rect key="frame" x="96" y="402" width="222" height="34"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HwG-Kv-PtU">
+                                <rect key="frame" x="0.0" y="454" width="414" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Refresh"/>
+                                <connections>
+                                    <action selector="refreshData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lvM-5e-rnQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7wo-9b-uvq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="0CV-uL-hhQ"/>
+                            <constraint firstItem="hWw-Wz-Qde" firstAttribute="top" secondItem="7wo-9b-uvq" secondAttribute="bottom" constant="10" id="44t-e1-ELf"/>
+                            <constraint firstItem="Lcs-xi-dgj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="96" id="5OH-cU-Mqg"/>
+                            <constraint firstItem="7wo-9b-uvq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="Ce3-Hq-PED"/>
+                            <constraint firstItem="Lcs-xi-dgj" firstAttribute="top" secondItem="hWw-Wz-Qde" secondAttribute="bottom" constant="57" id="Cz7-gj-SP2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7wo-9b-uvq" secondAttribute="trailing" constant="10" id="Pob-3H-yeI"/>
+                            <constraint firstItem="HwG-Kv-PtU" firstAttribute="top" secondItem="Lcs-xi-dgj" secondAttribute="bottom" constant="18" id="QdG-1c-gZF"/>
+                            <constraint firstItem="hWw-Wz-Qde" firstAttribute="top" secondItem="7wo-9b-uvq" secondAttribute="bottom" constant="10" id="T6P-im-Ryy"/>
+                            <constraint firstItem="hWw-Wz-Qde" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="cNO-Gc-rYC"/>
+                            <constraint firstItem="hWw-Wz-Qde" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="g5y-IM-D3Y"/>
+                            <constraint firstItem="HwG-Kv-PtU" firstAttribute="leading" secondItem="hWw-Wz-Qde" secondAttribute="leading" id="lyO-xW-9n6"/>
+                            <constraint firstItem="HwG-Kv-PtU" firstAttribute="trailing" secondItem="hWw-Wz-Qde" secondAttribute="trailing" id="uIc-Ol-cek"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Lcs-xi-dgj" secondAttribute="trailing" constant="96" id="zXi-bU-geA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Cryptocurrency Price Tracker" id="JuL-VO-kSp"/>
+                    <connections>
+                        <outlet property="picker" destination="hWw-Wz-Qde" id="tSJ-tn-WV5"/>
+                        <outlet property="price" destination="Lcs-xi-dgj" id="V4x-K1-goe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="137.94642857142856"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lys-vl-PPV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0MV-nH-qD0" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vr3-j8-Q6D">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="jZy-UD-pNx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vci-pT-sa4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-62.318840579710148" y="782.8125"/>
+        </scene>
+    </scenes>
+</document>

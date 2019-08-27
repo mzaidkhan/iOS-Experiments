@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C390D93E23105D4300D95B20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390D93D23105D4300D95B20 /* AppDelegate.swift */; };
+		C390D94023105D4300D95B20 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C390D93F23105D4300D95B20 /* art.scnassets */; };
+		C390D94223105D4300D95B20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390D94123105D4300D95B20 /* ViewController.swift */; };
+		C390D94523105D4300D95B20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C390D94323105D4300D95B20 /* Main.storyboard */; };
+		C390D94723105D4400D95B20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C390D94623105D4400D95B20 /* Assets.xcassets */; };
+		C390D94A23105D4400D95B20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C390D94823105D4400D95B20 /* LaunchScreen.storyboard */; };
+		C390D95523105D4400D95B20 /* Furniture3DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390D95423105D4400D95B20 /* Furniture3DTests.swift */; };
+		C390D96023105D4400D95B20 /* Furniture3DUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390D95F23105D4400D95B20 /* Furniture3DUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C390D95123105D4400D95B20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C390D93223105D4300D95B20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C390D93923105D4300D95B20;
+			remoteInfo = Furniture3D;
+		};
+		C390D95C23105D4400D95B20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C390D93223105D4300D95B20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C390D93923105D4300D95B20;
+			remoteInfo = Furniture3D;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C390D93A23105D4300D95B20 /* Furniture3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Furniture3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C390D93D23105D4300D95B20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C390D93F23105D4300D95B20 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		C390D94123105D4300D95B20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C390D94423105D4300D95B20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C390D94623105D4400D95B20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C390D94923105D4400D95B20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C390D94B23105D4400D95B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C390D95023105D4400D95B20 /* Furniture3DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Furniture3DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C390D95423105D4400D95B20 /* Furniture3DTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furniture3DTests.swift; sourceTree = "<group>"; };
+		C390D95623105D4400D95B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C390D95B23105D4400D95B20 /* Furniture3DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Furniture3DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C390D95F23105D4400D95B20 /* Furniture3DUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furniture3DUITests.swift; sourceTree = "<group>"; };
+		C390D96123105D4400D95B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C390D93723105D4300D95B20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C390D94D23105D4400D95B20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C390D95823105D4400D95B20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C390D93123105D4300D95B20 = {
+			isa = PBXGroup;
+			children = (
+				C390D93C23105D4300D95B20 /* Furniture3D */,
+				C390D95323105D4400D95B20 /* Furniture3DTests */,
+				C390D95E23105D4400D95B20 /* Furniture3DUITests */,
+				C390D93B23105D4300D95B20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C390D93B23105D4300D95B20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C390D93A23105D4300D95B20 /* Furniture3D.app */,
+				C390D95023105D4400D95B20 /* Furniture3DTests.xctest */,
+				C390D95B23105D4400D95B20 /* Furniture3DUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C390D93C23105D4300D95B20 /* Furniture3D */ = {
+			isa = PBXGroup;
+			children = (
+				C390D93D23105D4300D95B20 /* AppDelegate.swift */,
+				C390D93F23105D4300D95B20 /* art.scnassets */,
+				C390D94123105D4300D95B20 /* ViewController.swift */,
+				C390D94323105D4300D95B20 /* Main.storyboard */,
+				C390D94623105D4400D95B20 /* Assets.xcassets */,
+				C390D94823105D4400D95B20 /* LaunchScreen.storyboard */,
+				C390D94B23105D4400D95B20 /* Info.plist */,
+			);
+			path = Furniture3D;
+			sourceTree = "<group>";
+		};
+		C390D95323105D4400D95B20 /* Furniture3DTests */ = {
+			isa = PBXGroup;
+			children = (
+				C390D95423105D4400D95B20 /* Furniture3DTests.swift */,
+				C390D95623105D4400D95B20 /* Info.plist */,
+			);
+			path = Furniture3DTests;
+			sourceTree = "<group>";
+		};
+		C390D95E23105D4400D95B20 /* Furniture3DUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C390D95F23105D4400D95B20 /* Furniture3DUITests.swift */,
+				C390D96123105D4400D95B20 /* Info.plist */,
+			);
+			path = Furniture3DUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C390D93923105D4300D95B20 /* Furniture3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C390D96423105D4400D95B20 /* Build configuration list for PBXNativeTarget "Furniture3D" */;
+			buildPhases = (
+				C390D93623105D4300D95B20 /* Sources */,
+				C390D93723105D4300D95B20 /* Frameworks */,
+				C390D93823105D4300D95B20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Furniture3D;
+			productName = Furniture3D;
+			productReference = C390D93A23105D4300D95B20 /* Furniture3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C390D94F23105D4400D95B20 /* Furniture3DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C390D96723105D4400D95B20 /* Build configuration list for PBXNativeTarget "Furniture3DTests" */;
+			buildPhases = (
+				C390D94C23105D4400D95B20 /* Sources */,
+				C390D94D23105D4400D95B20 /* Frameworks */,
+				C390D94E23105D4400D95B20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C390D95223105D4400D95B20 /* PBXTargetDependency */,
+			);
+			name = Furniture3DTests;
+			productName = Furniture3DTests;
+			productReference = C390D95023105D4400D95B20 /* Furniture3DTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C390D95A23105D4400D95B20 /* Furniture3DUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C390D96A23105D4400D95B20 /* Build configuration list for PBXNativeTarget "Furniture3DUITests" */;
+			buildPhases = (
+				C390D95723105D4400D95B20 /* Sources */,
+				C390D95823105D4400D95B20 /* Frameworks */,
+				C390D95923105D4400D95B20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C390D95D23105D4400D95B20 /* PBXTargetDependency */,
+			);
+			name = Furniture3DUITests;
+			productName = Furniture3DUITests;
+			productReference = C390D95B23105D4400D95B20 /* Furniture3DUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C390D93223105D4300D95B20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Mohammed Zaid Khan";
+				TargetAttributes = {
+					C390D93923105D4300D95B20 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					C390D94F23105D4400D95B20 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = C390D93923105D4300D95B20;
+					};
+					C390D95A23105D4400D95B20 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = C390D93923105D4300D95B20;
+					};
+				};
+			};
+			buildConfigurationList = C390D93523105D4300D95B20 /* Build configuration list for PBXProject "Furniture3D" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C390D93123105D4300D95B20;
+			productRefGroup = C390D93B23105D4300D95B20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C390D93923105D4300D95B20 /* Furniture3D */,
+				C390D94F23105D4400D95B20 /* Furniture3DTests */,
+				C390D95A23105D4400D95B20 /* Furniture3DUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C390D93823105D4300D95B20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C390D94023105D4300D95B20 /* art.scnassets in Resources */,
+				C390D94A23105D4400D95B20 /* LaunchScreen.storyboard in Resources */,
+				C390D94723105D4400D95B20 /* Assets.xcassets in Resources */,
+				C390D94523105D4300D95B20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C390D94E23105D4400D95B20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C390D95923105D4400D95B20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C390D93623105D4300D95B20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C390D94223105D4300D95B20 /* ViewController.swift in Sources */,
+				C390D93E23105D4300D95B20 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C390D94C23105D4400D95B20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C390D95523105D4400D95B20 /* Furniture3DTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C390D95723105D4400D95B20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C390D96023105D4400D95B20 /* Furniture3DUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C390D95223105D4400D95B20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C390D93923105D4300D95B20 /* Furniture3D */;
+			targetProxy = C390D95123105D4400D95B20 /* PBXContainerItemProxy */;
+		};
+		C390D95D23105D4400D95B20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C390D93923105D4300D95B20 /* Furniture3D */;
+			targetProxy = C390D95C23105D4400D95B20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C390D94323105D4300D95B20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C390D94423105D4300D95B20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C390D94823105D4400D95B20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C390D94923105D4400D95B20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C390D96223105D4400D95B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C390D96323105D4400D95B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C390D96523105D4400D95B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4U993637A;
+				INFOPLIST_FILE = Furniture3D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mzk.Furniture3D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C390D96623105D4400D95B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4U993637A;
+				INFOPLIST_FILE = Furniture3D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mzk.Furniture3D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C390D96823105D4400D95B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4U993637A;
+				INFOPLIST_FILE = Furniture3DTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mzk.Furniture3DTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Furniture3D.app/Furniture3D";
+			};
+			name = Debug;
+		};
+		C390D96923105D4400D95B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4U993637A;
+				INFOPLIST_FILE = Furniture3DTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mzk.Furniture3DTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Furniture3D.app/Furniture3D";
+			};
+			name = Release;
+		};
+		C390D96B23105D4400D95B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4U993637A;
+				INFOPLIST_FILE = Furniture3DUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mzk.Furniture3DUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Furniture3D;
+			};
+			name = Debug;
+		};
+		C390D96C23105D4400D95B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4U993637A;
+				INFOPLIST_FILE = Furniture3DUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mzk.Furniture3DUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Furniture3D;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C390D93523105D4300D95B20 /* Build configuration list for PBXProject "Furniture3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C390D96223105D4400D95B20 /* Debug */,
+				C390D96323105D4400D95B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C390D96423105D4400D95B20 /* Build configuration list for PBXNativeTarget "Furniture3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C390D96523105D4400D95B20 /* Debug */,
+				C390D96623105D4400D95B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C390D96723105D4400D95B20 /* Build configuration list for PBXNativeTarget "Furniture3DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C390D96823105D4400D95B20 /* Debug */,
+				C390D96923105D4400D95B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C390D96A23105D4400D95B20 /* Build configuration list for PBXNativeTarget "Furniture3DUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C390D96B23105D4400D95B20 /* Debug */,
+				C390D96C23105D4400D95B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C390D93223105D4300D95B20 /* Project object */;
+}
